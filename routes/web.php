@@ -19,7 +19,7 @@ Route::get('/laravel', function () {
     return view('welcome');
 });
 
-Route::get('/homepage', function (){
+Route::get('/homepage', function () {
     return view('homepage');
 });
 

@@ -6,11 +6,13 @@ use Illuminate\Http\Request;
 
 class TeacherController extends Controller
 {
-    public function create(){
-        return 'Tao moi giang vien';
+    public function create()
+    {
+        return view('admin/teacher/form');
     }
 
-    public function showList(){
-        return 'danh sach';
+    public function showList()
+    {
+        return view('admin/teacher/list');
     }
 }

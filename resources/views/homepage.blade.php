@@ -12,32 +12,33 @@
     <title>Document</title>
 </head>
 <style>
-    ul{
+    ul {
         list-style-type: none;
     }
-    ul li a{
+
+    ul li a {
         text-decoration: none;
         color: deeppink;
         padding-left: 35px;
     }
 </style>
 <body>
-    <h1>Đây là 1 web rất xịn xò con bò!</h1>
-    <h3>Quản lí trường học.</h3>
-    <ul>
-        <b>Giảng Viên</b>
-        <li><a href="admin/teacher/create">Thêm mới</a></li>
-        <li><a href="admin/teacher/show">Xem danh sách</a></li>
-    </ul>
-    <ul>
-        <b>Sinh Viên</b>
-        <li><a href="admin/student/create">Thêm mới</a></li>
-        <li><a href="admin/student/show">Xem danh sách</a></li>
-    </ul>
+<h1>Đây là 1 web rất xịn xò con bò!</h1>
+<h3>Quản lí trường học.</h3>
+<ul>
+    <b>Giảng Viên</b>
+    <li><a href="admin/teacher/create">Thêm mới</a></li>
+    <li><a href="admin/teacher/show">Xem danh sách</a></li>
+</ul>
+<ul>
+    <b>Sinh Viên</b>
+    <li><a href="admin/student/create">Thêm mới</a></li>
+    <li><a href="admin/student/show">Xem danh sách</a></li>
+</ul>
 
-    <div class="flex-c-m">
-        <div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark"></div>
-    </div>
+<div class="flex-c-m">
+    <div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark"></div>
+</div>
 </body>
 <script>
     function onSignIn(googleUser) {

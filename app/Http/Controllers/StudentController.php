@@ -7,10 +7,10 @@ use Illuminate\Http\Request;
 class StudentController extends Controller
 {
     public function create(){
-        return 'Tao moi sinh vien';
+        return view('admin/student/form');
     }
 
     public function showList(){
-        return 'danh sach sinh vien';
+        return view('admin/student/list');
     }
 }
